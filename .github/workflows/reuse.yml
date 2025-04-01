@@ -6,8 +6,8 @@ on: [workflow_dispatch]
 jobs:
     call-workflow:
        uses: ./.github/workflows/reusable.yml
-        with:
-        who-to-greet: '@octocat'
+       with:
+          who-to-greet: '@octocat'
 
       
     use-output:
